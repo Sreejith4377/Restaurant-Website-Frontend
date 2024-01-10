@@ -42,7 +42,7 @@ color: #FAA525;
     color: black;
 }
 .bgimage{
-    background: url(/layers/images/foodgallery.png);
+    background: url("../images/foodgallery.png");
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;

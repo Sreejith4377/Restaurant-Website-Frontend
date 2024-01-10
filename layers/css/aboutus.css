@@ -32,7 +32,7 @@ header{
    margin-top: 5px;
 }
 .bgimage{
-    background: url(/layers/images/aboutusbanner.png);
+    background: url("../images/aboutusbanner.png");
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
