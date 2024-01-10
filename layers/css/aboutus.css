@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+   
+}
+.uldiv{
+    display: flex;
+    justify-content: space-between;
+}
+.uldiv li{
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+.bgimage{
+    background: url(/layers/images/aboutusbanner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.aboutuspageheading h2{
+    color: #FAA525;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+.aboutuspageheading p{
+    color: white;
+    text-align: center;
+    width: 30%;
+    /* margin-left: 450px; */
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+.aboutuspageheading{
+    padding: 200px 30px;
+    
+}
+.RESTAURANTOVERVIEWheading{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+.overview{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.overview p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+   
+
+    
+}
+.headercontent ul li a{
+    text-decoration: none;
+}
+.active{
+color: #FAA525;
+}
+.unactive{
+    color: black;
+}
+.ourpillars{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    padding: 30px 0px;
+   
+}
+.ourchefs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.BernardSmith h4{
+    text-align: center;
+    padding: 10px 0px 13px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.BernardSmith{
+    border: 1px solid black;
+}
+.AndrewBert h4{
+    text-align: center;
+    padding: 10px 0px 13px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.AndrewBert{
+    border: 1px solid black;
+}
+.Mecansmith h4{
+    text-align: center;
+       padding: 10px 0px 13px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.Mecansmith{
+    border: 1px solid black;
+}
+footer{
+    background-color: #FDC167;
+    padding: 30px 0px;
+    height: 160px;
+    margin-top: 30px;
+
+}
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+    /* background-color: #FDC167; */
+    margin-left: 20px;
+    
+}
+.address h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.address p{
+    width: 42%;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.Ourlinkstwo ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinkstwo h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress{
+    margin-left: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.EmailAddress h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress p{
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.emailbox input{
+    padding: 10px 5px;
+    width: 230px;
+    background-color: #FDC167;
+
+}
+.emailbox img{
+    margin-left: -40px;
+    /* padding-top: 2px; */
+    position: relative;
+    top: 3px;
+   
+}
+.emailbox{
+    margin-left: 20px;
+    padding: 25px 0px;
+}
+.Ourlinksone{
+    margin-left: -150px;
+}
+.Ourlinkstwo{
+    margin-left: 75px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px 0px;
+}
+.design p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.rights p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.hoverBernardSmithcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverBernardSmith:hover .hoverBernardSmithcontent{
+    opacity: 1;
+}
+.hoverBernardSmith{
+    position: relative;
+    overflow: hidden;
+}
+.hoverBernardSmithcontent h4{
+    margin-top: 300px;
+   
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+.hoverAndrewBertcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverAndrewBert:hover .hoverAndrewBertcontent{
+    opacity: 1;
+}
+.hoverAndrewBert{
+    position: relative;
+    overflow: hidden;
+}
+.hoverAndrewBertcontent h4{
+    margin-top: 300px;
+   
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+.hoverMecansmithcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverMecansmith:hover .hoverMecansmithcontent{
+    opacity: 1;
+}
+.hoverMecansmith{
+    position: relative;
+    overflow: hidden;
+}
+.hoverMecansmithcontent h4{
+    margin-top: 300px;
+   
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width:500px) {
+   .overview ,.ourchefs ,.footer{
+        display: block;
+    }
+    .address h4 ,.Ourlinkstwo h4 ,.EmailAddress h4{
+        font-size: 20px
+    }
+    .address p  ,.EmailAddress p ,.Ourlinkstwo ul li{
+        font-size: 15px;
+    }
+    .emailbox{
+        margin-left: 15px;
+    }
+    .Ourlinkstwo{
+        position: relative;
+        top: -150px;
+        margin-left: -15px
+    }
+    .EmailAddress{
+        position: relative;
+        top: -110px;
+        margin-left: -15px
+    
+    }
+    footer{
+        height: 500px;
+    }
+    .address p{
+        width: 69%;
+    }
+    .aboutuspageheading p {
+        color: white;
+        text-align: center;
+        width: 240px;
+        margin-left: 45px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+    }
+    .aboutuspageheading h2 {
+        color: #FAA525;
+        text-align: center;
+        padding-bottom: 5px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 25px;
+    }
+    .aboutuspageheading {
+        padding: 66px 30px;
+    }
+    .overview img{
+        width: 100%;
+    }
+
+    .overview p{
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+
+
+    }
+    .bgimage{
+        height: 200px;
+    }
+    .BernardSmith ,.AndrewBert {
+        margin-bottom: 20px;
+    }
+    .mainheader ,.uldiv {
+        display: flex;
+    }
+
+    .headerlogo img{
+        width: 50%;
+    }
+    .uldiv li{
+        font-size: 10px;
+        margin-top: 10px;
+       
+    }
+    .uldiv li{
+        margin-right: 5px;
+    }
+    .footer{
+        height: 0px;
+    }
+    
+   
+
+   
+}
+
+
+
+@media (min-width:700px) and (max-width:850px){
+    .address p{
+        width: 55%;
+    }
+    
+    .Ourlinksone ul li ,.Ourlinkstwo ul li { 
+        width: 80%;
+    }
+    .emailbox input{
+        width: 180px;
+    }
+    .EmailAddress{
+        margin-left: 10px;
+    }
+    .Ourlinkstwo{
+        margin-left: 15px;
+    }
+    .ourchefs{
+        display: block;
+        ;
+       
+    }
+    /* .hoverBernardSmithcontent ,.hoverAndrewBertcontent ,.hoverMecansmithcontent{
+        width: 54%;
+    } */
+    .BernardSmith ,.AndrewBert ,.Mecansmith{
+        width: 100%;
+        /* margin-left: 170px; */
+        margin-bottom: 30px;
+        
+    }
+    .hoverBernardSmithcontent h4 ,.hoverAndrewBertcontent h4 ,.hoverMecansmithcontent h4{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 250px;
+    }
+    .overview {
+        display: block;
+    }
+    .overviewimage img{
+        width: 100%;
+    }
+    .hoverBernardSmith img ,.hoverAndrewBert img ,.hoverMecansmith img{
+        width: 100%;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .aboutuspageheading p{
+        /* text-align: center; */
+        /* margin-left: 0px; */
+        width: 52%;
+        
+
+
+    }
+
+    .bgimage{
+        height: 35vh;
+    }
+    .aboutuspageheading {
+        padding: 120px 30px;
+    }
+
+}

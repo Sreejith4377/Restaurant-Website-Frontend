@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+   
+}
+/* .bgimage{
+    background: url(/assets/image/homepagebanner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+.uldiv{
+    display: flex;
+    justify-content: space-between;
+}
+.uldiv li{
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+.bgimage{
+    background: url(/layers/images/homepagebanner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.ourstory{
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.ourstoryimage img{
+
+    width: 100%;
+    /* height:300px;  
+    margin-left: 150px;
+    object-fit: cover; */
+
+}
+.ourstorycontent{
+    width: 50%;
+}
+.ourstorycontent p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+
+}
+.ourstorycontent h3{
+    font-size: 40px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.discover{
+    color: #FAA525;
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    
+}
+.sample img{
+    width: 100%;
+    height: 300px;
+    padding: 30px 0px;
+    object-fit: cover;
+}
+.servicehead h3{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    
+
+}
+.ourservices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.homepageheading {
+    color: #FAA525;
+    font-size: 30px;
+    margin-left: 50px;
+    padding-top: 150px;
+    text-align: center;
+   
+}
+.homepageheading p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0px;
+    width: 35%;
+    margin: auto;
+}
+.homepageheading button{
+    padding: 8px 10px;
+    background-color: #FAA525;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+
+}
+.hoverpartyhallcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverpartyhall:hover .hoverpartyhallcontent{
+    opacity: 1;
+}
+.hoverpartyhall{
+    position: relative;
+    overflow: hidden;
+}
+.hoverpartyhallcontent h4{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+.hoverrestaurantcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverrestaurant:hover .hoverrestaurantcontent{
+    opacity: 1;
+}
+.hoverrestaurant{
+    position: relative;
+    overflow: hidden;
+}
+.hoverrestaurantcontent h4{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+/* .hoverrestaurantcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.5);
+    color: #FAA525;
+    height: 62%;
+    width: 100%;
+
+} */
+.hovercateringcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovercatering:hover .hovercateringcontent{
+    opacity: 1;
+}
+.hovercatering{
+    position: relative;
+    overflow: hidden;
+}
+.hovercateringcontent h4{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+/* .hovercateringcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.5);
+    color: #FAA525;
+    height: 62%;
+    width: 100%;
+
+} */
+
+footer{
+    background-color: #FDC167;
+    padding: 30px 0px;
+    height: 160px;
+    margin-top: 25px;
+
+}
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+    /* background-color: #FDC167; */
+    margin-left: 20px;
+    
+    
+}
+.address h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.address p{
+    width: 42%;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.Ourlinkstwo ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinkstwo h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress{
+    margin-left: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.EmailAddress h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress p{
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.emailbox input{
+    padding: 10px 5px;
+    width: 230px;
+    background-color: #FDC167;
+
+}
+.emailbox img{
+    margin-left: -40px;
+    /* padding-top: 2px; */
+    position: relative;
+    top: 3px;
+   
+}
+.emailbox{
+    margin-left: 20px;
+    padding: 25px 0px;
+}
+.Ourlinksone{
+    margin-left: -150px;
+}
+.Ourlinkstwo{
+    margin-left: 75px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.design p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.rights p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.headercontent ul li a{
+    text-decoration: none;
+}
+.active{
+color: #FAA525;
+}
+.unactive{
+    color: black;
+}
+
+@media screen and  (max-width:500px){
+    .footer ,.ourstory,.ourservices {
+        display: block;
+    }
+    .uldiv li{
+        margin-right: 5px;
+    }
+    .address h4 ,.Ourlinkstwo h4 ,.EmailAddress h4{
+        font-size: 20px
+    }
+    .address p  ,.EmailAddress p ,.Ourlinkstwo ul li{
+        font-size: 15px;
+    }
+    .emailbox{
+        margin-left: 15px;
+    }
+    .Ourlinkstwo{
+        position: relative;
+        top: -150px;
+        margin-left: -15px
+    }
+    .EmailAddress{
+        position: relative;
+        top: -110px;
+        margin-left: -15px
+    
+    }
+    footer{
+        height: 500px;
+    }
+    .address p{
+        width: 69%;
+    }
+    .sample img{
+        height: 140px;
+    }
+    .ourstorycontent ,.ourstorycontent p{
+        width: 100%;
+       
+    }
+    .homepageheading {
+        padding-top: 223px;
+        margin-left: 30px;
+    }
+    .homepageheading h1{
+        font-size: 20px;
+    }
+    .homepageheading p{
+        font-size: 8px;
+        padding: 8px 0px;
+        width: 74%;
+       
+    }
+    .homepageheading button {
+        padding: 4px 3px;
+        font-size: 8px;
+    }    
+    .ourstoryimage{
+        display: none;
+    }
+    .discover{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .ourstorycontent h3{
+        text-align: center;
+    }
+    .headerlogo img{
+        width: 60%;
+        margin-top: 10px;
+    }
+    .uldiv li{
+        font-size: 10px;
+        margin-top: 15px;
+       
+    }
+    .footer{
+        height: 0px;
+    }
+   /* .aboutus{
+    width: 55px;
+} */
+
+
+
+
+
+
+
+
+.bgimage{
+    height: 202px;
+}
+.homepageheading{
+    padding-top: 50px;
+    margin-left: 4px;
+}
+
+.hoverpartyhall img , .hoverrestaurant img{
+    margin-bottom: 20px;
+}
+.hoverrestaurantcontent ,.hoverpartyhallcontent{
+    height: 96%;
+}
+.ourstorycontent p{
+    text-align: center;
+}
+
+
+}
+        
+@media (min-width:700px) and (max-width:850px){
+    .ourstorycontent{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .ourstoryimage img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .hoverpartyhallcontent h4 ,.hoverrestaurantcontent h4,.hovercateringcontent h4{
+        margin-left: 0px;
+        margin-top: 200px;
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .sample img{
+        object-fit: cover;
+    }
+
+    .bgimage{
+        background-size: cover;
+        height: 350px;
+    }
+    .hoverrestaurant,.hoverpartyhall,.hovercatering{
+        height: 40vh;
+    }
+    .address p{
+        width: 55%;
+    }
+    
+    .Ourlinksone ul li ,.Ourlinkstwo ul li { 
+        width: 80%;
+    }
+    .emailbox input{
+        width: 180px;
+    }
+    .EmailAddress{
+        margin-left: 10px;
+    }
+    .Ourlinkstwo{
+        margin-left: 15px;
+    }
+    .homepageheading p{
+        width: 60%;
+    }
+    .homepageheading{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .ourstorycontent p {
+        font-size: 16px;
+    }
+    .ourstory {
+        margin-top: 20px;
+    }
+    .ourstorycontent p{
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

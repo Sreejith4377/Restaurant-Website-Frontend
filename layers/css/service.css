@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+   
+}
+.uldiv{
+    display: flex;
+    justify-content: space-between;
+}
+.uldiv li{
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+   
+}
+.bgimage{
+    background: url(/layers/images/service.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   
+}
+.servicespageheading h2{
+    color: #FAA525;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    
+}
+.servicespageheading p{
+    color: white;
+    text-align: center;
+    width: 483px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+.servicespageheading{
+    padding: 200px 30px;
+    
+}
+.sequenceservice h3{
+    text-align: center;
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+ 
+
+}
+.sequenceservice hr{
+    width: 10%;
+    border: 2px solid #FAA525;
+    margin: auto;
+    margin-bottom: 30px;
+      
+}
+.serviceone{
+    display: flex;
+    gap: 60px;
+}
+.serviceone p{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    /* margin-top: 5px; */
+}
+.servicetwo{
+    display: flex;
+    gap: 20px;
+    padding: 45px 0px;
+}
+.servicetwo p{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    /* margin-top: 35px; */
+}
+.headercontent ul li a{
+    text-decoration: none;
+}
+.active{
+color: #FAA525;
+}
+.unactive{
+    color: black;
+}
+.ourserviceheading h3{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+}
+.restaurant{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px 0px;
+    gap: 60px;
+}
+.restaurantcontent h4{
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    /* margin-top: 25px; */
+    padding-bottom: 15px;
+}
+.restaurantcontent hr{
+    width: 10%;
+    border: 2px solid #FAA525;
+    margin: auto;
+    margin-bottom: 20px;
+    
+
+}
+.restaurantcontent p{
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    /* margin-top: 20px; */
+}
+.partyhall{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 30px 0px;
+}
+.partyhall img{
+    margin-top: 30px;
+}
+.partyhallcontent h4{
+    /* text-align: center; */
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    margin-top: 25px;
+    /* padding-bottom: 15px; */
+}
+.partyhallcontent hr{
+    width: 10%;
+    border: 2px solid #FAA525;
+    margin: auto;
+    margin-bottom: 20px;
+    
+
+}
+.partyhallcontent p{
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.outdoorcatering{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px 0px;
+    gap:85px;
+}
+.outdoorcatering h4{
+    /* text-align: center; */
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    /* margin-top: 25px;
+    padding-bottom: 15px; */
+}
+.outdoorcateringcontent hr{
+    width: 10%;
+    border: 2px solid #FAA525;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    
+
+}
+.outdoorcateringcontent p{
+    width: 96%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #FDC167;
+    padding: 30px 0px;
+    height: 160px;
+    margin-top: 30px;
+
+}
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+    /* background-color: #FDC167; */
+    margin-left: 20px;
+    
+}
+.address h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.address p{
+    width: 42%;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.Ourlinkstwo ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinkstwo h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress{
+    margin-left: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.EmailAddress h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress p{
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.emailbox input{
+    padding: 10px 5px;
+    width: 230px;
+    background-color: #FDC167;
+
+}
+.emailbox img{
+    margin-left: -40px;
+    /* padding-top: 2px; */
+    position: relative;
+    top: 3px;
+   
+}
+.emailbox{
+    margin-left: 20px;
+    padding: 25px 0px;
+}
+.Ourlinksone{
+    margin-left: -150px;
+}
+.Ourlinkstwo{
+    margin-left: 75px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px 0px;
+}
+.design p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.rights p{
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+@media screen and  (max-width:500px) {
+   .mainheader ,.serviceone ,.servicetwo,.restaurant,.partyhall ,.outdoorcatering ,.footer ,.copyrights{
+        display: block;
+    }
+    .bgimage{
+        width: 100%;
+        height: 200px;
+    }
+    .servicespageheading p {
+        color: white;
+        text-align: center;
+        width: 70%;
+        margin-left: 50px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 10px;
+    
+}
+.servicespageheading h2 {
+    color: #FAA525;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.servicespageheading {
+    padding: 64px 23px;
+}
+.serviceone img ,.servicetwo img ,.restaurant img  ,.partyhall img ,.outdoorcatering img{
+    width: 100%;
+}
+.sequenceservice hr {
+    margin-left: 160px;
+}
+.sequenceservice h3 {
+    font-size: 20px;
+}
+.serviceone p ,.servicetwo p ,.restaurantcontent p ,.partyhallcontent p ,.outdoorcateringcontent p {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.restaurantcontent h4 ,.partyhallcontent h4 ,.outdoorcatering h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.restaurantcontent hr ,.partyhallcontent hr ,.outdoorcateringcontent hr {
+    width: 15%;
+    margin-left: 165px;
+}
+.mainheader {
+    display: flex;
+    position: sticky;
+}
+.mainheader img{
+    width: 100%;
+    
+}
+.address h4 ,.Ourlinkstwo h4 ,.EmailAddress h4{
+    font-size: 20px
+}
+.address p  ,.EmailAddress p ,.Ourlinkstwo ul li{
+    font-size: 15px;
+}
+.emailbox{
+    margin-left: 15px;
+}
+.Ourlinkstwo{
+    position: relative;
+    top: -150px;
+    margin-left: -15px
+}
+.copyrights {
+    display: flex;
+    
+}
+.EmailAddress{
+    position: relative;
+    top: -110px;
+    margin-left: -15px
+
+}
+footer{
+    height: 500px;
+}
+.address p{
+    width: 69%;
+}
+.ourserviceheading h3{
+    padding: 0px 0px;
+    margin-top: 60px;
+}
+.uldiv {
+    display: flex;
+    font-size: 5px;
+    margin-top: -12px;
+    
+}
+.headerlogo img{
+    width: 50% ;
+}
+.uldiv li{
+    font-size: 10px;
+    margin-top: 20px;
+   
+}
+.servicetwo img{
+    display: none;
+}
+.partyhallcontent{
+    margin-top: -30px;
+}
+.serviceone p {
+    margin-top: 20px;
+}
+.servicetwo {
+    padding:30px 0px ;
+}
+.uldiv li{
+    margin-right: 5px;
+}
+.footer{
+    height: 0px;
+}
+}
+
+
+@media (min-width:700px) and (max-width:850px){
+    .address p{
+        width: 55%;
+    }
+    
+    .Ourlinksone ul li ,.Ourlinkstwo ul li { 
+        width: 80%;
+    }
+    .emailbox input{
+        width: 180px;
+    }
+    .EmailAddress{
+        margin-left: 10px;
+    }
+    .Ourlinkstwo{
+        margin-left: 15px;
+    }
+    .serviceone ,.servicetwo ,.restaurant,.partyhall ,.outdoorcatering{
+        display: block;
+    }
+    .serviceone img ,.servicetwo img ,.restaurant img ,.partyhall img ,.outdoorcatering img  {
+        width: 100%;
+    }
+    .serviceone p ,.servicetwo p ,.restaurant p ,.partyhall p ,.outdoorcatering p{
+        width: 100%;
+      
+    }
+    .bgimage{
+        height: 315px;
+    }
+    .servicespageheading {
+        padding: 100px 30px;
+    }
+    .serviceone p{
+        padding: 30px 0px;
+        text-align: center;
+
+    }
+    .servicetwo p{
+        text-align: center;
+    }
+    .servicetwo {
+        padding: 0px 0px
+
+    }
+    .restaurantcontent h4 ,.partyhallcontent h4 ,.outdoorcatering h4{
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .restaurantcontent p ,.partyhallcontent p ,.outdoorcateringcontent p{
+        text-align: center;
+        padding: 0px 0px;
+        margin-top: 0px;
+
+    }
+    .partyhallcontent{
+        margin-top: -50px;
+    }
+    .servicetwo img {
+        display: none;
+    }
+}

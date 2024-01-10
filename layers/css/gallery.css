@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+   
+}
+.uldiv{
+    display: flex;
+    justify-content: space-between;
+}
+.uldiv li{
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainheader{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+
+.headercontent ul li a{
+    text-decoration: none;
+}
+.active{
+color: #FAA525;
+}
+.unactive{
+    color: black;
+}
+.bgimage{
+    background: url(/layers/images/foodgallery.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+   
+}
+.foodgalleryheading h2{
+    color: #FAA525;
+    text-align: center;
+    padding-top: 240px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;  
+    
+    
+    
+}
+.vegetariandishesheading{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+.mainbox{
+    display: flex;
+   
+}
+.mainsubboxone{
+    display: flex;
+    
+}
+.gopimanchurian img{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.paneerbuttermasala{
+    margin-left: 20px;
+    
+}
+.vegnoodeles{
+    padding-top: 20px; 
+    margin-left: 20px;   
+}
+.vegpulao{
+    margin-left: 20px; 
+    padding-top: 10px; 
+
+}
+.vegbiriyani{
+    padding-top: 10px; 
+
+}
+.mainbox{
+    justify-content: center;
+}
+.non-vegetariandishesheading{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+.mainbox2{
+    display: flex;
+   
+    justify-content: center;
+}
+.mainsubboxtwo2{
+    display: flex;
+    padding-top: 12px;
+    
+}
+.biryani{
+    padding-left: 20px;
+}
+.grilledchicken{
+    padding-left: 20px;
+}
+.muttonmandi{
+    margin-left: 20px;
+
+}
+.fishfry{
+    padding-top: 12px;
+}
+.tandooriprawns{
+    padding-top: 27px;
+}
+footer{
+    background-color: #FDC167;
+    padding: 30px 0px;
+    height: 160px;
+    margin-top: 30px;
+
+}
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+    /* background-color: #FDC167; */
+    margin-left: 20px;
+    
+}
+.address h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.address p{
+    width: 42%;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinksone h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.Ourlinkstwo ul li{
+    list-style: none;
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.Ourlinkstwo h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress{
+    margin-left: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.EmailAddress h4{
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+.EmailAddress p{
+    margin: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.emailbox input{
+    padding: 10px 5px;
+    width: 230px;
+    background-color: #FDC167;
+
+}
+.emailbox img{
+    margin-left: -40px;
+    /* padding-top: 2px; */
+    position: relative;
+    top: 3px;
+   
+}
+.emailbox{
+    margin-left: 20px;
+    padding: 25px 0px;
+}
+.Ourlinksone{
+    margin-left: -150px;
+}
+.Ourlinkstwo{
+    margin-left: 75px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px 0px;
+}
+.design p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.rights p{
+    font-family: 'Outfit', sans-serif;
+
+}
+.hoverchickenlollipopcontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverchickenlollipop:hover .hoverchickenlollipopcontent{
+    opacity: 1;
+}
+.hoverchickenlollipop{
+    position: relative;
+    overflow: hidden;
+}
+.hoverchickenlollipopcontent h4{
+  
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hovertandooriprawnscontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovertandooriprawns:hover .hovertandooriprawnscontent{
+    opacity: 1;
+}
+.hovertandooriprawns{
+    position: relative;
+    overflow: hidden;
+    margin-top: 27px;
+}
+.hovertandooriprawnscontent h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+
+}
+.hoverfishfrycontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverfishfry:hover .hoverfishfrycontent{
+    opacity: 1;
+}
+.hoverfishfry{
+    position: relative;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.hoverfishfrycontent h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hovergrilledchickencontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovergrilledchicken:hover .hovergrilledchickencontent{
+    opacity: 1;
+}
+.hovergrilledchicken{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.hovergrilledchickencontent h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 500px;
+
+
+}
+.hovermuttonmandicontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovermuttonmandi:hover .hovermuttonmandicontent{
+    opacity: 1;
+}
+.hovermuttonmandi{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.hovermuttonmandicontent h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hoverbiryanicontent{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverbiryani:hover .hoverbiryanicontent{
+    opacity: 1;
+}
+.hoverbiryani{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.hoverbiryanicontent h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hoverpaneertikkaconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverpaneertikka:hover .hoverpaneertikkaconcept{
+    opacity: 1;
+}
+.hoverpaneertikka{
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 20px; */
+}
+.hoverpaneertikkaconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 500px;
+
+
+}
+.hovervegbiriyaniconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovervegbiriyani:hover .hovervegbiriyaniconcept{
+    opacity: 1;
+}
+.hovervegbiriyani{
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 20px; */
+    margin-top: 10px
+}
+.hovervegbiriyaniconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hovervegpulaoconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovervegpulao:hover .hovervegpulaoconcept{
+    opacity: 1;
+}
+.hovervegpulao{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 10px
+}
+.hovervegpulaoconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hovergopimanchurianconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovergopimanchurian:hover .hovergopimanchurianconcept{
+    opacity: 1;
+}
+.hovergopimanchurian{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.hovergopimanchurianconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hoverpaneerbuttermasalaconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hoverpaneerbuttermasala:hover .hoverpaneerbuttermasalaconcept{
+    opacity: 1;
+}
+.hoverpaneerbuttermasala{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.hoverpaneerbuttermasalaconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+.hovervegnoodelesconcept{
+    color: #FAA525;
+    background-color: rgb(0, 0, 0 , 0.6);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* transition: all 0.4s; */ 
+
+}
+.hovervegnoodeles:hover .hovervegnoodelesconcept{
+    opacity: 1;
+}
+.hovervegnoodeles{
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.hovervegnoodelesconcept h4{
+   
+   
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 200px;
+
+
+}
+@media screen and  (max-width:500px){
+    .footer {
+        display: block;
+    }
+    .address h4 ,.Ourlinkstwo h4 ,.EmailAddress h4{
+        font-size: 20px
+    }
+    .address p  ,.EmailAddress p ,.Ourlinkstwo ul li{
+        font-size: 15px;
+    }
+    .emailbox{
+        margin-left: 15px;
+    }
+    .Ourlinkstwo{
+        position: relative;
+        top: -150px;
+        margin-left: -15px
+    }
+    .EmailAddress{
+        position: relative;
+        top: -110px;
+        margin-left: -15px
+    
+    }
+    footer{
+        height: 500px;
+    }
+    .address p{
+        width: 69%;
+    }
+    .bgimage{
+        height: 200px;
+    }
+    .foodgalleryheading h2{
+        font-size: 25px;
+        padding-top: 86px;
+
+    }
+
+    .uldiv {
+        display: flex;
+        font-size: 5px;
+        margin-top: 5px;
+    }
+    .vegetariandishesheading ,.non-vegetariandishesheading {
+
+        font-size: 23px;
+        padding: 15px 0px;
+
+    }
+
+    .hovervegpulao{
+        margin-left: 0px;
+    }
+
+    .hovergopimanchurian ,.hoverpaneerbuttermasala ,.hovervegnoodeles ,.hoverpaneerbuttermasala ,.hovervegnoodeles ,.hovermuttonmandi ,.hoverbiryani {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .hoverpaneertikka ,.hovergrilledchicken {
+        display: none;
+    }
+    
+
+
+    
+
+    .headerlogo img {
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .uldiv li {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+
+    .mainbox  ,.mainsubboxone ,.mainbox2 ,.mainsubboxtwo2 {
+        display: block;
+    }
+    .uldiv li{
+        margin-right: 5px;
+    }
+    .footer{
+        height: 0px;
+    }
+}
+
+
+
+
+@media (min-width:700px) and (max-width:850px){
+    .address p{
+        width: 55%;
+    }
+    
+    .Ourlinksone ul li ,.Ourlinkstwo ul li { 
+        width: 80%;
+    }
+    .emailbox input{
+        width: 180px;
+    }
+    .EmailAddress{
+        margin-left: 10px;
+    }
+    .Ourlinkstwo{
+        margin-left: 15px;
+    }
+    .subboxtwo{
+        display: flex;
+    }
+    .mainbox{
+        display: block;
+    }
+    .mainbox2{
+        display: block;
+    }
+    .subboxone2{
+        display: flex;
+    }
+    .hovergrilledchicken ,.hovermuttonmandi  ,.hoverpaneertikka ,.hovervegbiriyani ,.hovergopimanchurian{
+        margin-left: 0px;
+    }
+    .bgimage{
+        height: 300px;
+    }
+    .foodgalleryheading h2{
+        padding-top: 120px;
+
+    }
+    .hoverpaneerbuttermasala{
+        margin-top: 15px;
+
+    }
+    .hovergopimanchurian{
+        margin-top: 15px;
+    }
+
+    .hovertandooriprawns{
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .hoverfishfry {
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .hoverchickenlollipopcontent {
+        height: 98%;
+    }
+    
+    
+
+    
+}
+
